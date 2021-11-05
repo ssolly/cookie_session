@@ -4,9 +4,9 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>cook/cookie.jsp</title>
 </head>
 <body>
-
+cookie
 </body>
 </html>
