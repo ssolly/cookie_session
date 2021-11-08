@@ -6,10 +6,9 @@
 <script type="text/javascript">
 	function popup() {
 		console.log("cookie => ", "${cook}")
-		if ("${cook}" == "") {
-			window
-					.open("popup", "new",
-							"width=300,height=200,top=500,left=500");
+		if ("${cook}" == "") {		 // 첫 쿠키는 없으니 "" -> 팝업창
+			window.open("popup", "new",
+						"width=300,height=200,top=500,left=500");
 		}
 	}
 </script>

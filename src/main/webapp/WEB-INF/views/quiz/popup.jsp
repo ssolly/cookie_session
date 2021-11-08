@@ -8,7 +8,7 @@
 <script type="text/javascript">
 	function chk() {
 		location.href = "cookieChk";
-		window.close();
+		window.close();			//너무 빨리 열자마자 닫을 시 안될 수 도 있음 => 다른 위치에서
 	}
 </script>
 </head>

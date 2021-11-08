@@ -17,12 +17,13 @@ public class QuizController {
 	public String myCookie(HttpServletResponse response, Model model,
 			@CookieValue(value = "myCookie", required = false) Cookie cook, HttpServletRequest request) {
 
+		/* jsp 방식
 		Cookie[] cookies = request.getCookies();
 		if (cookies != null) {
 			for (Cookie c : cookies)
 				System.out.println(c.getName() + " : " + c.getValue());
 		}
-
+		 */
 		if (cook != null)
 			model.addAttribute("cook", cook.getValue());
 		return "quiz/cookie";
